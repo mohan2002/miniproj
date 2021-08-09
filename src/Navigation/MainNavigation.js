@@ -21,7 +21,7 @@ function MainNavigation({toggle}) {
         <nav className="flex justify-between items-center h-16 bg-gray-500 text-black relative shadow-lg " role="navigation">
         
         <div>
-            <h1 className="text-xl md:text-2xl lg:text-4xl text-black font-bold animate-pulse pl-6">LOAN HELPER
+            <h1 className="text-xl md:text-2xl lg:text-4xl text-black font-bold animate-pulse pl-14">LOAN HELPER
             </h1>
         </div>
 

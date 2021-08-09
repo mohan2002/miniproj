@@ -6,6 +6,7 @@ import Signup from './AuthPages/Signup';
 import ForgotPassword from './AuthPages/ForgotPassword';
 import PrivateRoute from './AuthPages/PrivateRouter';
 import Homepage from './Pages/Homepage';
+import StarterPage from './StarterPage';
 function App() {
   return (
     <div>
@@ -16,7 +17,8 @@ function App() {
           <PrivateRoute exact path='/homepage' component={Homepage}/>
           <Route path='/signup' component={Signup}/>
           <Route path='/password' component={ForgotPassword}/>
-          <Route path='/' component={Login}/>
+          <Route path='/login' component={Login}/>
+          <Route path='/' component={StarterPage}/>
           </Switch>
         
         </AuthProvider> 

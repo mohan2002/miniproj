@@ -54,7 +54,7 @@ function Login() {
                         Login
                         </Button>
                         <div className="w-100 text-center mt-3">
-                        <Link to="/forgotpassword">Forgot Password</Link>
+                        <Link to="/password">Forgot Password</Link>
                         </div>
                     </Form>
                 </Card.Body>
