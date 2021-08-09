@@ -20,11 +20,15 @@ export default function AuthProvider({children}) {
     function resetPassword(email) {
         return auth.sendPasswordResetEmail(email)
     }
+    function logout(){
+        return auth.signOut()
+    }
     const value = {
         currentUser,
         login,
         signup,
         resetPassword,
+        logout,
     }
 
     useEffect(() => {
