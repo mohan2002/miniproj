@@ -1,8 +1,7 @@
 import React from 'react'
 import Nav from '../Navigation/Nav'
 
-function Homepage() {
-    
+function Predict() {
     return (
         <div>
             <Nav/>
@@ -10,4 +9,4 @@ function Homepage() {
     )
 }
 
-export default Homepage
+export default Predict

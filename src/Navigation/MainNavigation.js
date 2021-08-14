@@ -18,7 +18,7 @@ function MainNavigation({toggle}) {
         }
     }
     return (
-        <nav className="flex justify-between items-center h-16 bg-gray-500 text-black relative shadow-lg " role="navigation">
+        <nav className="flex justify-between items-center h-16 bg-gray-500 text-black relative shadow-lg" role="navigation">
         
         <div>
             <h1 className="text-xl md:text-2xl lg:text-4xl text-black font-bold animate-pulse pl-14">LOAN HELPER
@@ -30,12 +30,12 @@ function MainNavigation({toggle}) {
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16M4 18h16" />
             </svg>
           </div>
-            <div className="pr-8 md:block hidden font-semibold text-xl ">
-                <Link className="p-4 no-underline text-gray-900 hover:text-gray-50">Home</Link>
-                <Link className="p-4 no-underline text-gray-900 hover:text-gray-50">Predict</Link>
-                <Link className="p-4 no-underline text-gray-900 hover:text-gray-50">Schemes</Link>
-                <Link className="p-4 no-underline text-gray-900 hover:text-gray-50">Basic Information</Link>
-                <Link className="p-4 no-underline text-gray-900 hover:text-gray-50">Calculate</Link>
+            <div className="pr-6 md:block hidden font-semibold text-sm">
+                <Link className="p-4 no-underline text-gray-900 hover:text-gray-50" to='/homepage'>Home</Link>
+                <Link className="p-4 no-underline text-gray-900 hover:text-gray-50" to="/predict">Predict</Link>
+                <Link className="p-4 no-underline text-gray-900 hover:text-gray-50" to='/schemes'>Schemes</Link>
+                <Link className="p-4 no-underline text-gray-900 hover:text-gray-50" to='/basics'>Basics</Link>
+                <Link className="p-4 no-underline text-gray-900 hover:text-gray-50" to='/calculate'>Calculate</Link>
                 <button className="p-2 rounded-lg pl-10  no-underline bg-red-400 text-gray-900 hover:text-gray-50" onClick={logoutuser}>Logout</button>
                 
             </div>
